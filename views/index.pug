@@ -1,0 +1,53 @@
+doctype html 
+html
+   head 
+    title Mariya Dance Academy
+    style
+      include ../static/style.css 
+    body 
+      nav#navbar.top 
+        ul 
+          div#logo 
+             img(src="/static/img/logo.png")
+             | MDA
+          li #[a(href='/') Home]
+          li #[a(href='/') About]
+          li #[a(href='/') Contact us]
+          li #[a(href='/') Services]
+      section#introsection 
+        div  Welcome to Mariya's Dance Accademy 
+        div.small  Eat Dance Sleep Repeat
+      section#missionsection
+        h2 Our mission
+        div.card 
+          h3 To provide professional dance instruction
+          div.cardbox
+            div.cardimg 
+              img(src="/static/img/bg1.png")
+            div.cardcontent
+              p.para  Our professional teachers trains you with  perfection
+        div.card 
+          h3 High quality studio enviroment
+          div.cardbox
+            div.cardimg 
+              img(src="/static/img/bg2.png")
+            div.cardcontent
+              p Our Studio have best enviroment to grow
+        div.card 
+          h3 Perfection in your Dance
+          div.cardbox
+            div.cardimg 
+              img(src="/static/img/bg4.png")
+            div.cardcontent
+              p most important goal is to strive perfection in your dance
+      section#sponsersection
+        h2 Our Sponsors
+        div#sponser 
+          img(src="/static/img/insta.png", alt="sponser image" class="spimage")
+          img(src="/static/img/skype.png", alt="sponser image" class="spimage")
+          img(src="/static/img/microsoft.png", alt="sponser image" class="spimage")
+          img(src="/static/img/apple.png", alt="sponser image" class="spimage")
+      footer#footer 
+        | Copyright © 2022 MariyaDanceAcademy.com |All rights reserved
+      script 
+          include ../static/index.js

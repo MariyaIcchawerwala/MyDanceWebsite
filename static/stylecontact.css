@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+}
+.myinput{
+    width: 60%;
+    padding: 10px;
+    margin: 8px;
+    font-size: 17px;
+    border: 2px solid rgb(43, 82, 84);
+    border-radius: 15px;
+}
+.btn{
+    padding: 7px 10px;
+    font-size: 18px;
+    border: 2px solid rgb(2, 3, 3);
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(31, 48, 49);
+    cursor: pointer;
+    width: 60%;
+}
+.btn:hover{
+    background-color:rgb(73, 121, 124) ;
+}
+#formcontainer{
+    min-height: 81.5vh;
+    background: url('/static/img/Dance5.jpg')no-repeat center center;
+    padding: 10px;
+    
+}
+#formcontainer h1{
+    font-size: 41px;
+    color: white;
+    
+}

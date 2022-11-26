@@ -1,0 +1,21 @@
+extends base.pug 
+
+block scripts 
+  script(src="/static/index.js") 
+
+block style
+   style
+      include ../static/style.css
+      include ../static/styleabout.css
+
+block content
+    div.head 
+       h1 Our Group Heartly Welcomes You!
+    div.about 
+       img(src="/static/img/Dance1.jpg")
+       div#details 
+          h2 About Our Studio
+          p Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam est aperiam nesciunt porro doloremque cum minima odit deleniti labore, doloribus qui eos maxime facilis unde itaque sed? Unde eligendi voluptatibus inventore, pariatur mollitia aut autem?Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quod eius culpa commodi iste, inventore fugit dolorum, soluta minima cupiditate nisi itaque labore eveniet accusamus nesciunt temporibus? Cumque commodi esse vel voluptatibus nisi enim tempora!
+    div.register 
+        h1 Register Today 
+        p Beginners to adults welcome!

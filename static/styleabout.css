@@ -1,0 +1,40 @@
+.head{
+    background-color:  rgb(226, 236, 238);
+    padding: 30px 15px;
+    text-align: center;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+}
+.about img{
+    height: 450px;
+    width: 600px;
+}
+#details{
+    height: 350px;
+    width: 650px;
+    border: 2px solid rgb(15, 53, 56);
+    margin-left: -167px;
+    background-color: rgb(233, 244, 245);
+    margin-top: 50px;
+    padding: 30px 25px;
+    text-align: center;
+}
+#details h2{
+    padding-bottom: 20px;
+}
+.register{
+    color: rgb(255, 255, 255);
+    background: url('/static/img/Dance3.jpg')no-repeat center center;
+    z-index: -1;
+    height: 200px;
+    text-align: center;
+}
+.register h1{
+    font-size: 2.5rem;
+    padding: 10px;
+}
+.register p{
+    font-size: 1.8rem;
+}
